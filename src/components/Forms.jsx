@@ -54,7 +54,7 @@ export const Form=()=>{
             </select><br></br><br></br>
             <b>Salary:</b><input onChange={handelchange} type="number" placeholder="Enter your salary" id="salary"></input><br></br><br></br>
             <b>Martial State:</b><input onChange={handelchange} type="checkbox" id="married"></input>Married<input type="checkbox" onChange={handelchange} id="unmarried"></input>Unmarried<br></br><br></br>
-            <input type="submit" id="sub" value="submit"></input><br></br>
+            <a href="./showuser.html"><input type="submit" id="sub" value="submit"></input></a><br></br>
         </form>
     )
 }
