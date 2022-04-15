@@ -24,6 +24,36 @@
       "married": "",
       "unmarried": "on",
       "id": 4
+    },
+    {
+      "username": "paras",
+      "age": "22",
+      "address": "pathiar",
+      "department": "Manager",
+      "salary": "400000",
+      "married": "",
+      "unmarried": "on",
+      "id": 5
+    },
+    {
+      "username": "tinku",
+      "age": "22",
+      "address": "fa",
+      "department": "Designer",
+      "salary": "242424",
+      "married": "",
+      "unmarried": "on",
+      "id": 6
+    },
+    {
+      "username": "pinku",
+      "age": "23",
+      "address": "sdfasfs",
+      "department": "Tester",
+      "salary": "34235235",
+      "married": "on",
+      "unmarried": "",
+      "id": 7
     }
   ]
 }

@@ -1,0 +1,80 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+#customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
+}
+
+
+</style>
+  
+</head>
+<body>
+    <div id="container">
+      <table id="customers">
+            <tr> 
+              <th>Name</th>
+              <th>Age</th>
+              <th>Address</th>
+              <th>Department</th>
+              <th>Salary</th>
+              <th>Martial State</th>
+            </tr>
+
+              <tbody></tbody>
+        </table>
+    </div>
+</body>
+</html>
+
+<script>
+    const data=JSON.parse(localStorage.getItem("bag"))||[]
+  console.log(data)
+  function showdata(data){
+    data.map=(e)=>{
+   var name=document.createElement("tr")
+   name.textContent=e.username
+   var age=document.createElement("tr");
+   age.textContent=e.age;
+   var address=document.createElement("tr");
+   address.textContent=e.address;
+   var Department=document.createElement("tr");
+    Department.textContent=e.department
+   var salary=document.createElement("tr");
+   salary.textContent=e.salary
+   var marital=document.createElement("tr");
+   marital.textContent=e.married
+    document.querySelector("tbody").append(name,age,address,Department,salary,marital);
+    }
+  }
+  
+  showdata()
+
+
+</script>

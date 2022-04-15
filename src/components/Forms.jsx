@@ -12,7 +12,7 @@ export const Form=()=>{
         married:"",
         unmarried:""
     })
- 
+  
     function handelchange(e){
         const {id,value}=e.target;
         setFormData({
@@ -35,8 +35,9 @@ export const Form=()=>{
         
         }
 
-
-
+          var database=formData;
+          localStorage.setItem("bag",JSON.stringify(database))
+        // console.log("form", formData)
     return (
       
         <form id="form" onSubmit={handelSubmit}>
