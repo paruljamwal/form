@@ -2,118 +2,21 @@
   "Employees": [
     {
       "id": 1,
-      "username": "parul",
-      "age": "20"
+      "name": "parul",
+      "address": "pathiar",
+      "department": "tester",
+      "salary": "414124",
+      "age": 20,
+      "maritalstate": false
     },
     {
-      "id": 2,
-      "username": "akshu",
-      "age": "21"
-    },
-    {
-      "username": "fdfh",
-      "age": "24",
-      "id": 3
-    },
-    {
-      "username": "paru",
+      "username": "keshav",
       "age": "20",
-      "address": "pathiar",
-      "department": "Designer",
-      "salary": "20000000",
-      "married": "",
-      "unmarried": "on",
-      "id": 4
-    },
-    {
-      "username": "paras",
-      "age": "22",
-      "address": "pathiar",
-      "department": "Manager",
-      "salary": "400000",
-      "married": "",
-      "unmarried": "on",
-      "id": 5
-    },
-    {
-      "username": "tinku",
-      "age": "22",
-      "address": "fa",
-      "department": "Designer",
-      "salary": "242424",
-      "married": "",
-      "unmarried": "on",
-      "id": 6
-    },
-    {
-      "username": "pinku",
-      "age": "23",
-      "address": "sdfasfs",
+      "address": "dfgdgdf",
       "department": "Tester",
-      "salary": "34235235",
-      "married": "on",
-      "unmarried": "",
-      "id": 7
-    },
-    {
-      "username": "pinku123",
-      "age": "23",
-      "address": "sdfasfs",
-      "department": "Tester",
-      "salary": "34235235",
-      "married": "on",
-      "unmarried": "",
-      "id": 8
-    },
-    {
-      "username": "pinku123",
-      "age": "23",
-      "address": "sdfasfs",
-      "department": "Tester",
-      "salary": "34235235",
-      "married": "on",
-      "unmarried": "",
-      "id": 9
-    },
-    {
-      "username": "pinku1233453463",
-      "age": "23",
-      "address": "sdfasfs",
-      "department": "Tester",
-      "salary": "34235235",
-      "married": "on",
-      "unmarried": "",
-      "id": 10
-    },
-    {
-      "username": "pinku1233453463",
-      "age": "23",
-      "address": "sdfasfs",
-      "department": "Tester",
-      "salary": "34235235",
-      "married": "on",
-      "unmarried": "",
-      "id": 11
-    },
-    {
-      "username": "pinku1233453463",
-      "age": "23",
-      "address": "sdfasfs",
-      "department": "Tester",
-      "salary": "34235235",
-      "married": "on",
-      "unmarried": "",
-      "id": 12
-    },
-    {
-      "username": "pinku1233453463",
-      "age": "23",
-      "address": "sdfasfs",
-      "department": "Tester",
-      "salary": "34235235",
-      "married": "on",
-      "unmarried": "",
-      "id": 13
+      "salary": "34325235",
+      "maritalstate": "on",
+      "id": 2
     }
   ]
 }
